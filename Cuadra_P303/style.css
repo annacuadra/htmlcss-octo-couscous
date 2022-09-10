@@ -75,6 +75,10 @@ button{
 .button2{
     width: 50%;
 }
+.button3{
+    position: absolute;
+    top: 70%;
+}
 table, th, td {
     border: 1px solid;
     padding: 15px;
