@@ -1,0 +1,87 @@
+body.first{
+    padding: 10px;
+    background-image: url("bg.jpg");
+    height: 100%;
+    font-family: georgia,garamond,serif;
+    color: white;
+}
+body.login{
+    background-image: url("login.webp");
+    background-position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.header{
+    text-align: center;
+    font-size:20px;
+    border: 5px solid white
+}
+.footer{
+    font-size:15px;
+    padding: 70px 30px;
+}
+.Userinput{
+    padding: 10px;
+}
+input{
+    font-size: 15px;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.loginForm{
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    border-radius: 12px;
+    background: white;
+    opacity: 0.8;
+    color: black;
+    top:50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+h1.login{
+    text-align: center;
+}
+button{
+    background-color: white;
+    border: none;
+    border-radius: 12px;
+    color: black;
+    display: auto;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    padding: 10px 32px;
+    width: 100%;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    cursor: pointer;
+}
+.button1{
+    width: 150px;
+    position: absolute;
+    top: 75%;
+    left: 45%;
+}
+.button2{
+    width: 50%;
+}
+table, th, td {
+    border: 1px solid;
+    padding: 15px;
+}
+table {
+    width: 100%;
+}
+th{
+    height:50%;
+}
